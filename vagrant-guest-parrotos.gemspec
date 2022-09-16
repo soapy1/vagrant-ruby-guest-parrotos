@@ -1,16 +1,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |gem|
-  # TODO: rename name, author, email, description, summary,
-  # license, and homepage
-  gem.name          = "my-vagrant-guest-plugin"
+  gem.name          = "vagrant-guest-parrotos"
   gem.version       = File.read('VERSION').chop
-  gem.authors       = ["My Name"]
-  gem.email         = ["myemail@email.com"]
-  gem.description   = "Vagrant guest plugin"
+  gem.authors       = ["Sophia Castellarin"]
+  gem.email         = ["scastellarin95@gmail.com"]
+  gem.description   = "Vagrant ParrotOS guest plugin"
   gem.summary       = "Vagrant guest plugin"
   gem.license       = 'MIT'
-  gem.homepage      = "https://github.com/hashicorp/vvagrant-guest-plugin-skeleton-ruby"
+  gem.homepage      = "https://github.com/soapy/vagrant-ruby-guest-parrotos"
 
   gem.add_development_dependency "rake", "~> 13.0"
   gem.add_development_dependency "rspec", "~> 3.5.0"

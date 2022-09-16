@@ -17,5 +17,5 @@ jobs:
         with:
           ruby-version: '2.6'
       - name: Build RubyGem
-        run: gem build my-vagrant-guest-plugin-ruby-template.gemspec
+        run: gem build vagrant-guest-parrotos.gemspec
         working-directory: ${{github.workspace}}
